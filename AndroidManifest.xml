@@ -4,7 +4,13 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-<supports-screens android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:resizeable="true" android:anyDensity="true" />
+<supports-screens 
+android:largeScreens="true" 
+android:normalScreens="true" 
+android:smallScreens="true" 
+android:resizeable="true" 
+android:anyDensity="true"
+ />
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -17,8 +23,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.babyplus.MainActivity"
-            android:label="@string/app_name" >
-            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name" 
+            android:configChanges="orientation|keyboardHidden">
             
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +33,10 @@
             </intent-filter>
         </activity>
         
-        <activity android:name="org.apache.cordova.DroidGap" android:label="@string/app_name" android:configChanges="orientation|keyboardHidden"> 
+        <activity 
+        android:name="org.apache.cordova.DroidGap" 
+        android:label="@string/app_name" 
+        android:configChanges="orientation|keyboardHidden"> 
         <intent-filter></intent-filter> 
         </activity>
         

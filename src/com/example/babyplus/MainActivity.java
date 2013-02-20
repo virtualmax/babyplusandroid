@@ -2,7 +2,7 @@ package com.example.babyplus;
 
 import org.apache.cordova.DroidGap;
 import android.os.Bundle;
-import android.app.Activity;
+import com.phonegap.*;
 import android.view.Menu;
 
 public class MainActivity extends DroidGap {
